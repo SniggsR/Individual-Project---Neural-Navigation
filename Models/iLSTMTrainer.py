@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Mar 23 21:55:10 2022
 
-@author: Kishan
-"""
 import tensorflow as tf
 from iLSTM import core as iLSTMCore
 import pandas as pd
