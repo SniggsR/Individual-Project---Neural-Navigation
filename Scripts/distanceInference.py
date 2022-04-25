@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Apr 23 15:42:24 2022
 
-@author: Kishan
-"""
 
 import scipy.io as sio
 import pandas as pd
