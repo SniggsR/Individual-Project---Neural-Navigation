@@ -11,15 +11,13 @@
 
 ## Getting Started
 
-Download files in main.py folder
+Download Main.py zipfile
 
-Make sure to place them at same location(same path)
+Enter the distance you want to run or walk
 
 Run streamlit.py
 
-Upload accel.csv in processed data folder and click process.
-
-Check the results tab
+Upload accel.csv in processed data folder
 
 ## Details about Equipment 
 
