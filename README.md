@@ -33,9 +33,15 @@ Raw data is collected in a text file. It is converted into csv file and headers 
 
 Data is divided into batches of 40 seconds with stride of 1. We used a total of 675 batches.  
 
-**Model**
+## Model
 
 LSTM are used in this model. The network consists of 8 x 4 lstm nodes in a 2 layer network where accelerations in x,y,z directions are inputs and distance travelled is the output.
+
+## Results
+
+<img src="https://user-images.githubusercontent.com/87940609/165179398-c6498784-2708-4b60-bf37-05309086eeb7.png" width="600" height="350">
+
+
 
 
 
