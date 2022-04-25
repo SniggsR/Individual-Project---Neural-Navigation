@@ -17,7 +17,7 @@ Enter the distance you want to run or walk
 
 Run streamlit.py
 
-Upload accel.csv in processed data folder
+Upload accel.csv in Data/processed data folder
 
 ## Details about Equipment 
 
