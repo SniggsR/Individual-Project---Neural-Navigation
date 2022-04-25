@@ -23,6 +23,23 @@ We used 3 devices here
 
 **GPS Sensor**: To get distance travelled using signals
 
-**Microcontroller**: Collects the data in sequential order
+**Microcontroller**: Collects the data in sequential order. Acceleration data was collected for every 200ms and GPS data was colleacted for every one second
+
+## Data Preprocessing
+
+Raw data is collected in a text file. It is converted into csv file and headers are added.Since the GPS data is collected for every one second where as acelerometer data is collected for every 200 milliseconds. Linear extrapolation is used to get the rest of the GPS data.
+
+**Batching** 
+
+Data is divided into batches of 40 seconds with stride of 1. We used a total of 675 batches.  
+
+**Model**
+
+LSTM are used in this model. The network consists of 8 x 4 lstm nodes in a 2 layer network where accelerations in x,y,z directions are inputs and distance travelled is the output.
+
+
+
+
+
 
 
