@@ -1,1 +1,10 @@
+numpy
+pandas
+streamlit
+PIL
+iLSTMInference
+scipy.io
+scipy.interpolate
+tensorflow
+matplotlib
 
