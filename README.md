@@ -12,9 +12,13 @@
 ## Getting Started
 
 Download files in main.py folder
+
 Make sure to place them at same location(same path)
+
 Run streamlit.py
+
 Upload accel.csv in processed data folder and click process.
+
 Check the results tab
 
 ## Details about Equipment 
