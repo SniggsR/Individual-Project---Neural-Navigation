@@ -16,7 +16,9 @@ Make sure to place them at same location(same path)
 Run streamlit.py
 
 ## Details about Equipment 
+
 We used 3 devices here 
+
 **Accelerometer**: Raspberry Pi Pico sensor is used in this project. It measures accelerations in X,Y,Z directions.
 **GPS Sensor**: To get distance travelled using signals
 **Microcontroller**: Collects the data in sequential order
