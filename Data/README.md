@@ -20,16 +20,20 @@ This folder contains files processed files which are used as final inputs for th
 We have used concept of timesteps here. Lets discuss how many timesteps were used 
 
 Total number of timesteps = 875
+
 Each timestep = 200 milliseconds
+
 
 Accelerations in X direction = 875 ; Accelerations in Y direction = 875 ; Accelerations in Z direction = 875
 
 Initial Inputs = 875 timesteps x 3 directions {875 * 3}
+
 Initial Outputs = 875 distances x  1 {875 * 1}
 
 Shape of mini batch == 200 time steps == 200 * 200 milliseconds(time of each timestep) = 40 seconds
 
 Input after converting to batches = 675 * 200 * 3
+
 Output after converting to batches = 675 * 200 * 1
 
 
