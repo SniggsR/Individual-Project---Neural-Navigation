@@ -43,8 +43,13 @@ LSTM are used in this model. The network consists of 8 x 4 lstm nodes in a 2 lay
 
 ## Results
 
+**Training set**
+
 <img src="https://user-images.githubusercontent.com/87940609/165179398-c6498784-2708-4b60-bf37-05309086eeb7.png" width="600" height="350">
 
+**Test set**
+
+<img src="https://user-images.githubusercontent.com/87940609/165649341-0ebad205-c295-413f-8936-e8aa25e8243e.png" width="600" height="350">
 
 
 
